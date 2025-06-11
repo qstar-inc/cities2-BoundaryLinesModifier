@@ -1,12 +1,7 @@
 ﻿<Publish>
-	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="86728" />
-	<!--Name of the mod to display to players-->
 	<DisplayName Value="Boundary Lines Modifier" />
-	<!--Short description of the mod-->
 	<ShortDescription Value="Modify the map/tile border size and color." />
-	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
-	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 # Boundary Lines Modifier
 Ever felt the border lines aren't good enough for you? Like they are too large, or shows up unnecessarily?
@@ -16,27 +11,19 @@ You can modify the width, tiling length, and separate colour for the map border 
 
 ###- Requires reload of the save for the settings to apply.
 	</LongDescription>
-	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
-	<!--Screenshot, can be set multiple times-->
 	<Screenshot Value="Properties/Screenshot01.png" />
 	<Screenshot Value="Properties/Screenshot02.png" />
 	<Screenshot Value="Properties/Screenshot03.png" />
-	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
-	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
-	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
-	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="*" />
-	<!--Dependency for the mod, can be set multiple times-->
+	<ModVersion Value="1.0.2" />
+	<GameVersion Value="1.3.3f1" />
 	<Dependency Id="" />
-	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="1.0" />
 	<ChangeLog>
-## Initial Release
+- Compatibility update for 1.3.3f1.
+- Vanilla Data is now dynamically collected to prevent accidental overwrite in case of game update.
 	</ChangeLog>
-	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/qstar-inc/cities2-BoundaryLinesModifier" />
+	<ExternalLink Type="buymeacoffee" Url="https://buymeacoffee.com/starq" />
 </Publish>
